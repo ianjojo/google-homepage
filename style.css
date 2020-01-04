@@ -1,0 +1,133 @@
+body, html {
+    background-color: ghostwhite;
+    width: auto;
+    margin: 0%;
+    font-family: 'Sans-serif', monospace;
+}
+
+.Main-Text {
+    text-align: center;
+    font-size: 3.5em;
+    padding: 155px 0px 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/***Left Menu**/
+
+.left-menu li {
+    float: left;
+    overflow: hidden;
+    text-align: left;
+}
+
+.left-menu li a {
+    display: block;
+    padding: 6px;
+    color: black;
+}
+
+.left-menu a:link {
+    text-decoration: none;
+}
+
+.left-menu a:visited {
+    text-decoration: none;
+}
+
+.left-menu a:hover {
+    text-decoration: underline;
+}
+
+.left-menu a:active {
+    text-decoration: underline;
+}
+/***End of left menu***/
+
+/***Right Menu**/
+.right-menu li {
+    float: right;
+    padding: 4px;
+    overflow: hidden;
+}
+
+.right-menu li a {
+    display: block;
+    padding-right: 28px;
+    color: black;
+}
+
+.right-menu a:link {
+    text-decoration: none;
+}
+
+.right-menu a:visited {
+    text-decoration: none;
+}
+
+.right-menu a:hover {
+    text-decoration: underline;
+}
+
+.right-menu a:active {
+    text-decoration: underline;
+}
+
+/***End of right menu***/
+
+/****Search****/
+.Search {
+text-align: center;
+padding: 25px 0px 25px 0px;
+border: 3px;
+}
+
+.buttons {
+    text-align: center;
+    width: 99%;
+}
+
+/*****End of search***/
+
+
+/*****Footer Design****/
+.footer {
+    background-color: #e0e0eb;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 5%;
+}
+
+.Location {
+    text-align: center;
+}
+
+.Left-Content li {
+    float: left;
+    padding: 4px;
+    overflow: hidden;
+    padding: 3px 0px 0px 10px;
+    text-align: center;
+}
+
+.Left-Content li a {
+    display: block;
+    padding-right: 28px;
+    color: black;
+}
+
+.Left-Content a:link {
+    text-decoration: none;
+}
+
+.Left-Content a:visited {
+    text-decoration: none;
+}
+
+.Left-Content a:hover {
+    text-decoration: underline;
+}
+
+.Left-Content a:active {
+    text-decoration: underline;
+}
